@@ -72,16 +72,15 @@ ul li::before{
     width: 26px;
     border-radius: 50%;
     background-image: url(circle.png);
-    background-color: black;
     background-size: cover;
     background-position: center;
     left: 8px;
 }
-.checked{
+ul li.checked{
     color: #555;
     text-decoration: line-through;
 }
-.checked::before{
+ul li.checked::before{
     background-image: url(confirm.png);
 }
 ul li span{
